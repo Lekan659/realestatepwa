@@ -12,6 +12,17 @@
 }
 /* left */
 
+.hero-button{
+    display: flex;
+    position: relative;
+    padding-bottom: 2rem;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    grid-column-gap: 1rem
+    
+    
+}
+
 .hero-left{
     gap: 3rem;
 
@@ -28,6 +39,49 @@
     font-size: 3.8rem;
     line-height: 4rem;
 }
+
+/* .orange-circle{
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 8%;
+    top: -10%;
+    z-index: -1;
+    animation: pulse 2s infinite, fadeOut 2s infinite;
+} */
+
+.orange-circle {
+    height: 7rem;
+    width: 7rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    left: 68%;
+    top: -25%;
+    z-index: -1;
+    animation: pulse 2s infinite, fadeInOut 4s infinite;
+  }
+  
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
 
 /* right side */
 

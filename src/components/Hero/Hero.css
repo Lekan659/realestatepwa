@@ -6,7 +6,7 @@
 }
 
 .hero-container{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 
 }
@@ -40,6 +40,23 @@
     line-height: 4rem;
 }
 
+.stats{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hero-stats>:nth-child(1){
+  font-size: 2rem;
+}
+
+.hero-stats>:nth-child(1)>:last-child{
+  color: #e0cc6b
+}
+
+.secondaryText{
+  font-size: 0.9rem;
+  color: rgb(140, 139, 139);
+}
 /* .orange-circle{
     height: 4rem;
     width: 4rem;

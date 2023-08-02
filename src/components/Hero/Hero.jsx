@@ -15,7 +15,7 @@ const Hero = () =>{
                         Properties
                     </h1>
                   </div>
-                  <div className="flexColStart hero-des">
+                  <div className="flexColStart secondaryText hero-des">
                     <span>
                     We leave you with an impression that stays with you…</span><span>
                     which makes us STAY with you over a life time.
@@ -36,33 +36,33 @@ const Hero = () =>{
 
                   
                   <div className="flexCenter stats">
-                  <div className="flexColStart hero-stats">
+                  <div className="flexColCenter hero-stats">
                     <span>
-                    <CountUp start={30} end={50} duration={4}/> <span>+</span>
+                    <CountUp start={10} end={50} duration={4}/> <span>+</span>
                     </span>
                    
-                    <span>
-                    For Sale
+                    <span className="secondaryText">
+                    Projects for Sale
                     </span>
                       
                   </div>
-                  <div className="flexColStart hero-stats">
+                  <div className="flexColCenter hero-stats">
                     <span>
-                    <CountUp start={15} end={25} duration={4}/> <span>+</span>
+                    <CountUp start={10} end={29} duration={4}/> <span>+</span>
                     </span>
                    
-                    <span>
-                    UpComing Projects
+                    <span className="secondaryText">
+                    Upcoming Projects
                     </span>
                       
                   </div>
-                  <div className="flexColStart hero-stats">
+                  <div className="flexColCenter hero-stats">
                     <span>
-                    <CountUp start={15} end={25} duration={4}/> <span>+</span>
+                    <CountUp start={5} end={25} duration={4}/> <span>+</span>
                     </span>
                    
-                    <span>
-                    Sold out
+                    <span className="secondaryText">
+                    Sold Out Projects
                     </span>
                       
                   </div>

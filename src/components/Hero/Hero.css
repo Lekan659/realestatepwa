@@ -57,6 +57,11 @@
   font-size: 0.9rem;
   color: rgb(140, 139, 139);
 }
+
+.secondaryText2{
+  font-size: 0.8rem;
+  color: rgb(140, 139, 139);
+}
 /* .orange-circle{
     height: 4rem;
     width: 4rem;

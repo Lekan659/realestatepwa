@@ -41,7 +41,7 @@ const Hero = () =>{
                     <CountUp start={10} end={50} duration={4}/> <span>+</span>
                     </span>
                    
-                    <span className="secondaryText">
+                    <span className="secondaryText2">
                     Projects for Sale
                     </span>
                       
@@ -51,7 +51,7 @@ const Hero = () =>{
                     <CountUp start={10} end={29} duration={4}/> <span>+</span>
                     </span>
                    
-                    <span className="secondaryText">
+                    <span className="secondaryText2">
                     Upcoming Projects
                     </span>
                       
@@ -61,7 +61,7 @@ const Hero = () =>{
                     <CountUp start={5} end={25} duration={4}/> <span>+</span>
                     </span>
                    
-                    <span className="secondaryText">
+                    <span className="secondaryText2">
                     Sold Out Projects
                     </span>
                       

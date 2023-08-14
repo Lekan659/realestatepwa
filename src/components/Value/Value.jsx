@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { 
   AccordionItem,
   Accordion, 
@@ -13,6 +13,7 @@ import "./Value.css"
 import data from "../../utils/accordion"
 
 const Value = () => {
+
   return (
     <section className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
@@ -32,21 +33,34 @@ const Value = () => {
 </span>
 
 <Accordion
+className="accordion"
 allowMultipleExpanded = {false}
 preExpanded={[0]}
-className='accordion'
 >
   {
     data.map((item, i) => {
+      const [className, setClassName] = useState(null)
       return(
-        <AccordionItem className='accordionItem' key={i} uuid={i}>
+        <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
           <AccordionItemHeading>
-            <AccordionItemButton>
-              <div className="flecCenter icon">
+            <AccordionItemButton className="flexCenter accordionButton">
+              <AccordionItemState>
+                {({expanded}) => expanded ? setClassName("expanded") : setClassName("collapsed")}
+              </AccordionItemState>
+              <div className="flexCenter icon">
                 {item.icon}
+              </div>
+              <span className="primaryText">
+                {item.heading}
+              </span>
+              <div className="flexCenter icon">
+                <MdOutlineArrowDropDown size={20}/>
               </div>
             </AccordionItemButton>
           </AccordionItemHeading>
+          <AccordionItemPanel>
+            <p className="secondaryText">{item.detail}</p>
+          </AccordionItemPanel>
         </AccordionItem>
       )
     })

@@ -10,10 +10,11 @@ const Hero = () =>{
                   <div className="hero-title">
                     <div className="orange-circle"/>
                     <h1>
-                        Discover <br/> 
-                        More <br/>
-                        Properties
-                    </h1>
+                        Oak Homes <br/> </h1>
+                        <h2>
+                        Luxury Living <br/>
+                        at <span className="orangeText">Affordable</span> Pricing
+                        </h2>
                   </div>
                   <div className="flexColStart secondaryText hero-des">
                     <span>

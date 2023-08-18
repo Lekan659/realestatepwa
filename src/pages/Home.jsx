@@ -1,4 +1,6 @@
 import Contacts from "../components/Contacts/Contacts";
+import Footer from "../components/Footer/Footer";
+import Getstarted from "../components/GetStarted/GetStarted";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import Residencies from "../components/Residencies/Residencies";
@@ -12,6 +14,8 @@ function Home() {
       <Residencies/>
       <Value/>
       <Contacts/>
+      <Getstarted/>
+      <Footer/>
     </div>
   );
 }

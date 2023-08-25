@@ -9,13 +9,13 @@ import Value from "../components/Value/Value";
 function Home() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <Hero/>
       <Residencies/>
       <Value/>
       <Contacts/>
       <Getstarted/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

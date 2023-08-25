@@ -4,6 +4,7 @@ import {Swiper, SwiperSlide, useSwiper} from "swiper/react"
 import "swiper/css"
 import data from "../../utils/slider.json"
 import {sliderSettings} from "../../utils/common.js"
+import PropertyCard from "../PropertyCard/PropertyCard";
 // import CountUp from "react-countup";
 const Residencies = () =>{
     return( 
@@ -24,18 +25,7 @@ const Residencies = () =>{
                         {
                             data.map((card, i) =>(
                                 <SwiperSlide>
-                                    <div className="flexColStart r-card">
-                                        
-                                        <img src={card.image} alt="home" />
-                                        <span className="secondaryText r-price">
-                                            <span style = {{color: "orange"}}>₦ </span>
-                                            <span>{card.price}</span>
-                                        </span>
-                                   
-
-                                    <span className="primaryText">{card.name}</span>
-                                    <span className="secondaryText">{card.detail}</span>
-                                    </div>
+                                    <PropertyCard card={card}/>
                                     </SwiperSlide>
 
                             ))

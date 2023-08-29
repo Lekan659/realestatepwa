@@ -2,7 +2,23 @@
     color:white;
     position: relative;
     padding-bottom: 2rem;
-    background-color: var(--black);
+    background-image: url('./r3.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(136, 160, 255, 0.25);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.hero-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Grey color with opacity */
+  z-index: 1;
 }
 
 .hero-container{
@@ -25,7 +41,12 @@
 
 .hero-left{
     gap: 3rem;
+    z-index: 23;
 
+}
+
+.hero-right{
+  z-index: 23;
 }
 
 .hero-title{

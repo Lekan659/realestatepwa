@@ -1,13 +1,13 @@
 .h-wrapper{
-    background: var(--black);
+    background: rgba(0, 0, 0, 0.89);
     color: white;
     border-bottom: 1px rgba(255,255,255,.4) solid;
 }
 
 .h-container{
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
     color: var(--secondary);
 }
 

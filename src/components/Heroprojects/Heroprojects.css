@@ -146,19 +146,19 @@ top: -23%;
 
 
 @keyframes pulse {
-  0%, 100% p{
+  0%, 100% {
     transform: scale(1);
   }
-  50% p{
+  50% {
     transform: scale(1.1);
   }
 }
 
 @keyframes fadeInOut {
-  0%, 100% p{
+  0%, 100% {
     opacity: 0.4;
   }
-  50% p{
+  50% {
     opacity: 1;
   }
 }

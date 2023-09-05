@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import { Suspense } from "react";
 import Layout from "./components/Layout/Layout";
 import Properties from "./pages/Properties/Properties";
+import Property from "./pages/Property/Porperty";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 function App() {
@@ -17,7 +18,11 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
         <Route path="/" element={<Home/>}/>
-        <Route path="/projects" element={<Properties/>}/>
+        <Route path="/projects">
+        <Route index element={<Properties/>}/>
+        <Route path=":projectId" element={<Property/>}/>
+        </Route>
+       
         </Route>
       </Routes>
       </BrowserRouter>

@@ -4,83 +4,155 @@
     "name": "Oak Villa",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "../r1.png"
+    "image": "../r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "1",
     "name": "Oak Heights",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "../r2.png"
+    "image": "../r2.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "2",
     "name": "Kaylas Haven",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "../r3.png"
+    "image": "../r3.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "3",
     "name": "Oak Mews",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "../r1.png"
+    "image": "../r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "4",
     "name": "Oak Heights",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "../r2.png"
+    "image": "../r2.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "5",
     "name": "Oak Place",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "../r3.png"
+    "image": "../r3.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "6",
     "name": "Oak Villa",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "../r1.png"
+    "image": "../r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "7",
     "name": "Oak Heights",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "../r2.png"
+    "image": "../r2.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "8",
     "name": "Kaylas Haven",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "../r3.png"
+    "image": "../r3.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "9",
     "name": "Oak Mews",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "../r1.png"
+    "image": "../r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "10",
     "name": "Oak Heights",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "../r2.png"
+    "image": "../r2.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "11",
     "name": "Oak Place",
     "price": "35,853",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "../r3.png"
+    "image": "../r3.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Street 2",
+    "city": "Multan",
+    "country" :  "Pakistan",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   }
 ]

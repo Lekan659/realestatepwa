@@ -44,6 +44,16 @@
     gap: 0.5rem;
 }
 
+.amenities{
+    gap: 1rem;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.amenity{
+    gap: 0.5rem;
+}
+
 .property-details .button{
     width: 100%;
     margin-top: 1rem;

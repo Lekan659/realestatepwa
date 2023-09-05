@@ -6,7 +6,7 @@ import data from "../../utils/sliderproducts.json"
 // import { MdMeetingRoom } from 'react-icons/md'
 import { FaShower } from "react-icons/fa";
 import { AiTwotoneCar } from "react-icons/ai";
-import { MdLocationPin, MdMeetingRoom } from "react-icons/md";
+import { MdLocationPin, MdMeetingRoom, MdOutlinePool, MdSecurity, MdSportsGymnastics } from "react-icons/md";
 const Porperty = () => {
   const {pathname} = useLocation()
   const id = pathname.split("/").slice(-1)[0]
@@ -31,21 +31,68 @@ const Porperty = () => {
               {/* bathrooms */}
               <div className="flexStart facility">
                 <FaShower size={20} color="#1F3E72" />
-                {/* <span>{data?.facilities?.bathrooms} Bathrooms</span> */}
+                <span>{data[id]?.facilities?.bathrooms} Bathrooms</span>
               </div>
 
               {/* parkings */}
               <div className="flexStart facility">
                 <AiTwotoneCar size={20} color="#1F3E72" />
-                {/* <span>{data?.facilities.parkings} Parking</span> */}
+                <span>{data[id]?.facilities.parkings} Parking</span>
               </div>
 
               {/* rooms */}
               <div className="flexStart facility">
                 <MdMeetingRoom size={20} color="#1F3E72" />
-                {/* <span>{data?.facilities.bedrooms} Room/s</span> */}
+                <span>{data[id]?.facilities.bedrooms} Room/s</span>
               </div>
             </div>
+
+              {/* description */}
+
+              <span className="secondaryText" style={{ textAlign: "justify" }}>
+              {data[id]?.description}
+            </span>
+
+              {/* Amenities */}
+              <div className="flexColStart amenities">
+              <div className="flexStart amenity">
+                <MdSportsGymnastics size={20} color="#ffa500" />
+                {/* <MdSportsGymnastics */}
+                <span>{data[id]?.facilities?.bathrooms} Gym</span>
+              </div>
+
+              {/* parkings */}
+              <div className="flexStart amenity">
+                <MdOutlinePool size={20} color="#ffa500" />
+                <span>{data[id]?.facilities.parkings}Pool</span>
+              </div>
+
+              {/* rooms */}
+              <div className="flexStart amenity">
+                <MdSecurity size={20} color="#ffa500" />
+                <span>{data[id]?.facilities.bedrooms} 24/7 Security</span>
+              </div>
+
+              <div className="flexStart amenity">
+                <Tech size={20} color="#ffa500" />
+                <span>{data[id]?.facilities.bedrooms} 24/7 Security</span>
+              </div>
+              </div>
+
+            {/* address */}
+
+            <div className="flexStart" style={{ gap: "1rem" }}>
+              <MdLocationPin size={25} />
+              <span className="secondaryText">
+                {data[id]?.address}{" "}
+                {data[id]?.city}{" "}
+                {data[id]?.country}
+              </span>
+            </div>
+
+
+
+
           </div>
         </div>
 

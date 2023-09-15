@@ -6,7 +6,9 @@ import data from "../../utils/sliderproducts.json"
 // import { MdMeetingRoom } from 'react-icons/md'
 import { FaShower } from "react-icons/fa";
 import { AiTwotoneCar } from "react-icons/ai";
-import { MdLocationPin, MdMeetingRoom, MdOutlinePool, MdSecurity, MdSportsGymnastics } from "react-icons/md";
+import { MdLocationPin, MdMeetingRoom, MdOutlinePool, MdSecurity, MdSmartDisplay, MdSportsGymnastics } from "react-icons/md";
+import Heroproject from '../../components/Heroproject/Heroproject'
+import Map from '../../components/Map/Map'
 const Porperty = () => {
   const {pathname} = useLocation()
   const id = pathname.split("/").slice(-1)[0]
@@ -14,6 +16,7 @@ const Porperty = () => {
 
   return (
     <div className="wapper">
+      <Heroproject card = {data[id]} />
        <div className="flexColStart paddings innerWidth property-container">
 
         <img src={data[id]?.image} alt="Home Image" />
@@ -58,24 +61,24 @@ const Porperty = () => {
               <div className="flexStart amenity">
                 <MdSportsGymnastics size={20} color="#ffa500" />
                 {/* <MdSportsGymnastics */}
-                <span>{data[id]?.facilities?.bathrooms} Gym</span>
+                <span> Gym</span>
               </div>
 
               {/* parkings */}
               <div className="flexStart amenity">
                 <MdOutlinePool size={20} color="#ffa500" />
-                <span>{data[id]?.facilities.parkings}Pool</span>
+                <span>Pool</span>
               </div>
 
               {/* rooms */}
               <div className="flexStart amenity">
                 <MdSecurity size={20} color="#ffa500" />
-                <span>{data[id]?.facilities.bedrooms} 24/7 Security</span>
+                <span> 24/7 Security</span>
               </div>
 
               <div className="flexStart amenity">
-                <Tech size={20} color="#ffa500" />
-                <span>{data[id]?.facilities.bedrooms} 24/7 Security</span>
+                <MdSmartDisplay size={20} color="#ffa500" />
+                <span> Smart Home</span>
               </div>
               </div>
 
@@ -94,6 +97,16 @@ const Porperty = () => {
 
 
           </div>
+
+          <div className="map">
+            <Map
+              address={data[id]?.address}
+              city={data[id]?.city}
+              country={data[id]?.country}
+            />
+          </div>
+
+
         </div>
 
        </div>

@@ -45,6 +45,10 @@
 
 }
 
+.hero-des{
+  color: rgb(251 247 247) !important;
+}
+
 .hero-right{
   z-index: 23;
 }
@@ -109,7 +113,7 @@
 
 .secondaryText2{
   font-size: 0.8rem;
-  color: rgb(140, 139, 139);
+  color: rgb(251 247 247) !important;
 }
 /* .orange-circle{
     height: 4rem;

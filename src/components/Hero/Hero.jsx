@@ -1,5 +1,6 @@
 import React from "react";
 import './Hero.css'
+import { Link, NavLink } from "react-router-dom";
 import CountUp from "react-countup";
 const Hero = () =>{
     return(  
@@ -25,7 +26,9 @@ const Hero = () =>{
                   <div className="innerWidth hero-button">
                     <div>
                   <button className="button">
-                    <a href="">View Properties</a>
+                  <Link to={"/projects"}>
+                  View Properties
+                </Link>
                     </button>
                     </div>
                     <div>

@@ -26,7 +26,7 @@ const Porperty = () => {
             <div className="flexStart head">
             <span className="primaryText">{data[id]?.name}</span>
               <span className="orangeText" style={{ fontSize: "1.5rem" }}>
-                $ {data[id]?.price}
+                {data[id]?.price}
               </span>
             </div>
 

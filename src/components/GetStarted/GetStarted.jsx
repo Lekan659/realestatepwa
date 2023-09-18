@@ -7,7 +7,7 @@ const Getstarted = () => {
             <div className="flexColCenter inner-container">
             <span className='primaryText'>Get Started with Oak Homes</span>
             <span className='secondaryText'>
-              Luxury Living at Affordable Pricing <br/>
+              Luxury Living at Its Best Pricing <br/>
               Click Below to get Started
               </span>
               <button className="button">

@@ -27,9 +27,9 @@ const Value = () => {
         <div className="flexColStart v-right">
           <span className='orangeText'>Our Value</span>
           <span className='primaryText'>Values We Give</span>
-          <span className='secondaryText'>Oak Homes is a leading Real .
+          <span className='secondaryText'>We are a one stop shop for Real Estate Development, Financing, Management,
 
-<br /> Our apartments are u!
+<br />  Sales of Properties and Materials sourcing across the Globe.
 </span>
 
 <Accordion

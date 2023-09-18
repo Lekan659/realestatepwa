@@ -14,13 +14,13 @@ const Hero = () =>{
                         Oak Homes <br/> </h1>
                         <h2>
                         Luxury Living <br/>
-                        at <span className="orangeText">Affordable</span> Pricing
+                        at  it’s<span className="orangeText"> Best</span> Pricing
                         </h2>
                   </div>
                   <div className="flexColStart secondaryText hero-des">
                     <span>
-                    We leave you with an impression that stays with you…</span><span>
-                    which makes us STAY with you over a life time.
+                    Unlock your path to wealth with smart </span><span>
+                     investment in real estate ...
                     </span>
                   </div>
                   <div className="innerWidth hero-button">

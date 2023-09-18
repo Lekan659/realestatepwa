@@ -17,7 +17,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="secondaryText">
-                We always ready to help by providijng the best services for you. We beleive a good blace to live can make your life better
+                We always ready to help by providijng the best services for you. We beleive a good place to live can make your life better
                 </div>
 
                 <div className="flexColStart contactModes">

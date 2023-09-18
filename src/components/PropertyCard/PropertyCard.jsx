@@ -11,7 +11,7 @@ const PropertyCard = ({card}) => {
                                         
         <img src={card.image} alt="home" />
         <span className="secondaryText r-price">
-            <span style = {{color: "orange"}}>₦ </span>
+            <span style = {{color: "orange"}}> </span>
             <span>{card.price}</span>
         </span>
    

@@ -8,7 +8,9 @@ const Footer = () => {
             <div className="flexColStart f-left">
                 <img src="./logo.png" alt="" width={120}/>
 
-                <span className="secondaryText">
+                <span style={{
+                    color : 'lavender'
+                }} className="secondaryText">
                     Our Vision is to make all people<br />
                     the best place to live for them.
 
@@ -17,13 +19,17 @@ const Footer = () => {
             <div className="flexColStart f-right">
                 <span className='primaryText'>
                     Information
-                    </span><span className='secondaryText'>
-                    11A Jubril Aminu street Parkview Estate, Ikoyi.Lagos
+                    </span><span style={{
+                    color : 'lavender'
+                }} className='secondaryText'>
+                    No 4 Ribadu Road, Ikoyi.Lagos
                     </span>
                     <span className='orangeText'>
                         Quick Links
                     </span>
-                    <div className="flexCenter f-menu">
+                    <div style={{
+                    color : 'lavender'
+                }} className="flexCenter f-menu">
 
                    
                     <span>Properties</span><span>Services</span><span>Contact Us</span>

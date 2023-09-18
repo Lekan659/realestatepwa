@@ -2,85 +2,92 @@
   {
     "id": "0",
     "name": "Oak Villa",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "price": "Available",
+    "detail": "A specially curated ultra-luxury enclave intelligently designed with modern amenities",
+    "image": "./r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Asokoro ",
+    "city": "Asokoro",
+    "country" :  "Abuja",
+    "description" : "A specially curated ultra-luxury enclave intelligently designed with modern amenities infused with a high end technology system aimed to deliver the most rewarding ultra luxury living experience in Abuja. The first of its kind smart housing in Abuja specifically for those that have earned the spot"
   },
   {
     "id": "1",
-    "name": "Oak Heights",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Oak Place",
+    "price": "Available",
+    "detail": "An undiluted embodiment of luxury, style and sophistication",
+    "image": "./r2.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Glover road Road",
+    "city": "Ikoyi",
+    "country" :  "Lagos",
+    "description" : "An undiluted embodiment of luxury, style and sophistication. It’s designed to have a Home Automation System which controls cctv, energy management, safety and many other aspects of your home making your home smart and intelligent. The first of its kind smart housing estate in Nigeria"
   },
   {
     "id": "2",
     "name": "Kaylas Haven",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "price": "Available",
+    "detail": "Massive opportunity to build your dream home at the base of Mummy Mountain",
+    "image": "./r3.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "No 4 Ribadu Road",
+    "city": "Ikoyi",
+    "country" :  "Lagos",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "3",
     "name": "Oak Mews",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "price": "Available",
+    "detail": "ikate elegushi lekki, (after 3rd roundabout, behind world oil filling station and blenco supermarket) Lagos",
+    "image": "./r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "Ikate Lekki",
+    "city": "Lagos",
+    "country" :  "Nigeria",
+    "description" : "This development gives an aura of perfection and excellence. This luxury development offers you a lifestyle of exceptional comfort and class due to its stunning and easily accessible location, best quality standards, contemporary architecture and design, functional facilities and unique details. It is meticulously built with YOU in mind to create a truly luxurious and ideal family home living experience"
   },
   {
     "id": "4",
-    "name": "Oak Heights",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Oak Residence",
+    "price": "Available",
+    "detail": "A complete work of art. It’s timeless designs draws its inspiration from modern architectural master pieces",
+    "image": "./r2.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "No 4 Ribadu Road",
+    "city": "Ikoyi",
+    "country" :  "Lagos",
+    "description" : "A complete work of art. It’s timeless designs draws its inspiration from modern architectural master pieces around the world. Enjoy a good selection of quality amenities, exquisite modern architecture, maximum security and unparalled service with breathtaking views of Lagos city from each floor of our magnificent development"
   },
   {
     "id": "5",
     "name": "Oak Place",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "price": "Available",
+    "detail": "Massive opportunity to build your dream home at the base",
+    "image": "./r3.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "No 4 Ribadu Road",
+    "city": "Ikoyi",
+    "country" :  "Lagos",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   },
   {
     "id": "6",
     "name": "Oak Villa",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
-  },
-  {
-    "id": "7",
-    "name": "Oak Heights",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
-  },
-  {
-    "id": "8",
-    "name": "Kaylas Haven",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
-  },
-  {
-    "id": "9",
-    "name": "Oak Mews",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
-  },
-  {
-    "id": "10",
-    "name": "Oak Heights",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
-  },
-  {
-    "id": "11",
-    "name": "Oak Place",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "price": "Available",
+    "detail": "Massive opportunity to build your dream home at the base",
+    "image": "./r1.png",
+    "facilities":{"bedrooms": 1, "parkings": 1, "bathrooms": 1},
+    "amenities":{"gym": 1, "spa": 1, "electricity": 1, "cinema": 1, "pool": 1, "security": 1 },
+    "address": "No 4 Ribadu Road",
+    "city": "Ikoyi",
+    "country" :  "Lagos",
+    "description" : "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack."
   }
 ]

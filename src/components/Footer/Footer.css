@@ -17,3 +17,7 @@
     margin-top: 0.8rem;
     font-weight: 500;
 }
+
+.f-wrapper{
+    background-color: var(--black);
+}

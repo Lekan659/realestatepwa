@@ -7,6 +7,7 @@ import Layout from "./components/Layout/Layout";
 import Properties from "./pages/Properties/Properties";
 import Property from "./pages/Property/Porperty";
 import { QueryClient, QueryClientProvider } from "react-query";
+import About from "./pages/About/About";
 
 function App() {
   const queryclient = new QueryClient
@@ -22,6 +23,7 @@ function App() {
         <Route index element={<Properties/>}/>
         <Route path=":projectId" element={<Property/>}/>
         </Route>
+        <Route path="/about" element={<About/>}/>
        
         </Route>
       </Routes>

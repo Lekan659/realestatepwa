@@ -11,7 +11,7 @@ const Getstarted = () => {
               Click Below to get Started
               </span>
               <button className="button">
-                <a href='#'>
+                <a href='/projects'>
                   Get Started
                 </a>
               </button>

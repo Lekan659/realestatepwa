@@ -44,7 +44,7 @@ const Contacts = () => {
                                     <MdCall size={25}/>
                                 </div>
                                 <div className="flexColStart detail">
-                                    <span className='primaryText'>Chat</span><span>08111120003</span>
+                                    <span className='primaryText'>Whatsapp</span><span>08111120003</span>
                                 </div>
                             </div>
                             <div className="flexCenter button">
@@ -80,7 +80,7 @@ const Contacts = () => {
                                 </div>
                             </div>
                             <div className="flexCenter button">
-                                Send Mail
+                            <a href="mailto:customerservice@oakhomeslimited.com">Send Mail</a>
                             </div>
                             </div>
                     </div>

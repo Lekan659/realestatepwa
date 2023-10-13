@@ -21,13 +21,14 @@ const Header = () =>{
 
                 
                 <div style={getMenuStyles(menuOpened)} className="flexCenter h-menu">
+                <NavLink to='/'>Home</NavLink>
                     <NavLink to='/projects'>Projects</NavLink>
-                    <a href="">Our Services</a>
+                    {/* <a href="">Our Services</a> */}
                     {/* <a href="">About Us</a> */}
                     <NavLink to='/about'>About Us</NavLink>
                     
                     <button className="button">
-                    <a href="mailto:zainkeepscode@gmail.com">Contact Us</a>
+                    <a href="mailto:customerservice@oakhomeslimited.com">Contact Us</a>
                     </button>
                     
                 </div>

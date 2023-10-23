@@ -13,6 +13,8 @@ import {MdOutlineArrowDropDown} from 'react-icons/md'
 import "./About.css"
 import data from "../../utils/accordion"
 import Getstarted from '../../components/GetStarted/GetStarted';
+import { features } from '../../utils/data'
+// import './Welcome.css'
 
 const About = () => {
   return (
@@ -50,6 +52,35 @@ Whether as an investor or a first time home buyer, we leave you with an impressi
 <div className="points">
     
 </div>
+<div className="innerWidth wwd-blocks">
+                        <div className="wwd-block"> 
+                        <span className='sec-title'>Mission</span> 
+                        <span className='text'>Our mission is to create exquisite, high-end properties that redefine luxury living, combining exceptional design, unparalleled craftsmanship, and impeccable attention to detail.</span>
+                        <div className="block-features">
+                            {
+                                features.slice(0, 3).map((feature, i) => (
+                                    <div key={i} className="block-feature">
+                                        <img src={feature.icon} alt="mission" width={60} height={60} />
+                                        <span>{feature.title}</span>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                        </div>
+                        <div className="wwd-block"> 
+                      <span className='sec-title'>Vision</span> 
+                        <span className='text'> Our vision is to be a premier name in luxury real estate, recognized globally for our iconic architectural designs, uncompromising quality, and unparalleled customer service</span>
+                        <div className="block-features">
+                            {
+                                features.slice(3, 6).map((feature, i) => (
+                                    <div key={i} className="block-feature">
+                                        <img src={feature.icon} alt="mission" width={60} height={60} />
+                                        <span>{feature.title}</span>
+                                    </div>
+                                ))
+                            }
+                        </div></div>
+                    </div>
 
     <Getstarted/>
         

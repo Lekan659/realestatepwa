@@ -3,28 +3,33 @@ import './Hero.css'
 import { Link, NavLink } from "react-router-dom";
 import CountUp from "react-countup";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css"
-import { Navigation, Autoplay, Pagination, EffectCreative } from "swiper";
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import './hswiper.css';
+
+// import required modules
+import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper';
+import Header from "../Header/Header";
 const Hero = () =>{
     return(  
         <>
-                <Swiper
-        spaceBetween={0}
+      <Swiper
+        spaceBetween={30}
+        loop={true}
         speed = {2200}
-        effect= {'fade'}
-        fadeEffect= {
-          {crossFade: true}
-        }
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        effect={'fade'}
+        navigation={true}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation, EffectCreative]}
+        autoplay={{
+          delay: 111500,
+          disableOnInteraction: false,
+        }}
+        modules={[EffectFade, Navigation, Pagination, Autoplay]}
         className="mySwiper"
       >
         
@@ -32,20 +37,20 @@ const Hero = () =>{
             <div className="paddings innerWidth flexCenter hero-container" >
                 <div className="flexColStart hero-left">
                   <div className="hero-title">
-                    <div className="orange-circle"/>
+                    {/* <div className="orange-circle"/> */}
                     <h1>
                         Oak Homes <br/> </h1>
                         <h2>
-                        Luxury Living <br/>
+                        Luxury Living
                         at  it’s<span className="orangeText"> Best</span> Pricing
                         </h2>
                   </div>
-                  <div className="flexColStart secondaryText hero-des">
+                  {/* <div className="flexColStart secondaryText hero-des">
                     <span>
                     Unlock your path to wealth with smart </span><span>
                      investment in real estate ...
                     </span>
-                  </div>
+                  </div> */}
                   <div className="innerWidth hero-button">
                     <div>
                   <button className="button">
@@ -99,7 +104,7 @@ const Hero = () =>{
                 </div>
                 <div className="flexCenter hero-right">
                     <div className="image-container">
-                        <img src="./hero-image.png" alt="" />
+                        <img src="./r3.png" alt="" />
                     </div>
                     </div>
                     </div>
@@ -109,20 +114,20 @@ const Hero = () =>{
             <section  className="paddings innerWidth flexCenter hero-container">
 <div className="flexColStart hero-left">
   <div className="hero-title">
-    <div className="orange-circle"/>
+    {/* <div className="orange-circle"/> */}
     <h1>
-        Oak Homes <br/> </h1>
+        Oak Home <br/> </h1>
         <h2>
-        Luxury Living <br/>
+        Luxury Living
         at  it’s<span className="orangeText"> Best</span> Pricing
         </h2>
   </div>
-  <div className="flexColStart secondaryText hero-des">
+  {/* <div className="flexColStart secondaryText hero-des">
     <span>
     Unlock your path to wealth with smart </span><span>
      investment in real estate ...
     </span>
-  </div>
+  </div> */}
   <div className="innerWidth hero-button">
     <div>
   <button className="button">

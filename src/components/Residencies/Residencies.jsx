@@ -5,32 +5,49 @@ import "swiper/css"
 import data from "../../utils/slider.json"
 import {sliderSettings} from "../../utils/common.js"
 import PropertyCard from "../PropertyCard/PropertyCard";
+import { containerVariants, desVariantsres, tagVariantsres, titleVariantsres } from "../../utils/animations";
+import { motion } from "framer-motion";
 // import CountUp from "react-countup";
 const Residencies = () =>{
     return( 
         <section className="r-wrapper">
             <div className="paddings innerWidth r-container">
                 <div className="flexColStart r-head">
-                    <span className="orangeText">
-                        Best Choices</span>
-                    <span className="primaryText">
+                    <motion.span
+                    initial='offscreen'
+                        whileInView={"onscreen"}
+                        variants={tagVariantsres} className="orangeText">
+                        Best Choices</motion.span>
+                    <motion.span
+                    initial='offscreen'
+                    whileInView={"onscreen"}
+                    variants={titleVariantsres} className="primaryText">
                             Popular Residencies
-                        </span>
+                        </motion.span>
                         </div>
 
                         {/* <Swiper {...sliderSettings}><SliderButtons/> </Swiper> */}
                     <Swiper {...sliderSettings}>
                     <SliderButtons/>
-                    <div>
+                      <motion.div
+                    initial='offscreen'
+                    whileInView={"onscreen"}
+                    variants={desVariantsres}>
                         {
                             data.map((card, i) =>(
                                 <SwiperSlide>
+                                    <motion.div
+                                    initial='offscreen'
+                                    whileInView={"onscreen"}
+                                    variants={containerVariants(i+1) * 0.2 }
+                                    >
                                     <PropertyCard card={card}/>
+                                    </motion.div>
                                     </SwiperSlide>
 
                             ))
                         }
-                        </div>
+                        </motion.div>
                     </Swiper>
                
             </div>

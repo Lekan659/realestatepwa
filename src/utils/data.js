@@ -78,7 +78,7 @@ export const ourDiffFeatures = [
 
 export const hitFeatures = [
   {
-    icon: "/howItWorks/Frame-0.png",
+    icon: "./howItWorks/Frame-0.png",
     title: "Connect",
     des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.",
   },

@@ -1,3 +1,4 @@
+import { motion, useAnimation } from "framer-motion";
 import Contacts from "../components/Contacts/Contacts";
 import Footer from "../components/Footer/Footer";
 import Getstarted from "../components/GetStarted/GetStarted";
@@ -8,21 +9,57 @@ import Ourvalue from "../components/Ourvalue/Ourvalue";
 import Residencies from "../components/Residencies/Residencies";
 import Value from "../components/Value/Value";
 import { Welcome } from "../components/Welcome/Welcome";
+import Ourcontact from "../components/Ourcontact/Ourcontact";
+
+motion
 
 function Home() {
+  const controls = useAnimation()
+
   return (
-    <div className="App">
+    <motion.div className="App" animate = {controls}>
       {/* <Header/> */}
       <Hero/>
       <Welcome/>
       <Residencies/>
-      <Homevid/>
+      <motion.div
+        onViewportEnter = {() =>
+        controls.start({
+          backgroundColor: "var(--frie)",
+        })
+        }
+        onViewportLeave={() =>
+          controls.start({
+            backgroundColor: "white"
+          })
+        }
+        viewport={{amount: 0.4}}
+        >
+                <Homevid/>
+      </motion.div>
+
       <Ourvalue/>
-      <Value/>
-      <Contacts/>
+      {/* <Value/> */}
+    
+      <motion.div
+        onViewportEnter = {() =>
+        controls.start({
+          backgroundColor: "var(--lightBlue)",
+        })
+        }
+        onViewportLeave={() =>
+          controls.start({
+            backgroundColor: "white"
+          })
+        }
+        viewport={{amount: 0.4}}
+        >
+                <Contacts/>
+      </motion.div>
+        {/* <Ourcontact/> */}
       <Getstarted/>
       {/* <Footer/> */}
-    </div>
+    </motion.div>
   );
 }
 

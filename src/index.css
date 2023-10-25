@@ -7,7 +7,11 @@
   --blue: #4066ff;
   --shadow: 10px 12px 48px rgba(181, 187, 203, .206);
   --lightBlue: #eeeeff;
+  --hcolor: #221577;
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --grey: #867eb5;
+  --frie: #f7f3e6;
+  
 }
 
 * {
@@ -188,6 +192,7 @@ a {
   padding: 2rem;
   /* box-shadow: var(--shadow); */
   border-radius: 1rem;
+  border-bottom: 1px rgba(255,255,255,.4) solid;
   justify-content: space-between;
   align-items: center;
   margin-top: 1.5rem;
@@ -203,6 +208,7 @@ a {
 .wwd-support{
   display: flex;
   padding: 2rem;
+  padding-top: 0;
   /* box-shadow: var(--shadow); */
   border-radius: 1rem;
   justify-content: space-between;

@@ -13,6 +13,9 @@ import './hswiper.css';
 // import required modules
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper';
 import Header from "../Header/Header";
+import { motion } from "framer-motion";
+import { titleVariants } from "../../utils/animations";
+
 const Hero = () =>{
     return(  
         <>
@@ -21,7 +24,7 @@ const Hero = () =>{
         loop={true}
         speed = {2200}
         effect={'fade'}
-        navigation={true}
+        // navigation={true}
         pagination={{
           clickable: true,
         }}
@@ -34,9 +37,24 @@ const Hero = () =>{
       >
         
             <SwiperSlide className="hero-wrapper">
-            <div className="paddings innerWidth flexCenter hero-container" >
-                <div className="flexColStart hero-left">
-                  <div className="hero-title">
+            <div
+           
+             className="paddings innerWidth flexCenter hero-container" >
+                <motion.div
+                 initial={{ opacity: 0, x: -100 }}
+                 whileInView={{
+                     opacity: 1,
+                     x: 0,
+                     transition: {
+                         type: "easeIn",
+                         duration: 1,
+                         delay: .7
+                     }
+                 }} 
+                 className="flexColStart hero-left">
+                  <motion.div 
+                  
+                  className="hero-title">
                     {/* <div className="orange-circle"/> */}
                     <h1>
                         Oak Homes <br/> </h1>
@@ -44,7 +62,7 @@ const Hero = () =>{
                         Luxury Living
                         at  it’s<span className="orangeText"> Best</span> Pricing
                         </h2>
-                  </div>
+                  </motion.div>
                   {/* <div className="flexColStart secondaryText hero-des">
                     <span>
                     Unlock your path to wealth with smart </span><span>
@@ -101,12 +119,15 @@ const Hero = () =>{
                   </div>
 
    
-                </div>
-                <div className="flexCenter hero-right">
+                </motion.div>
+                <motion.div
+                initial='offscreen'
+                whileInView={"onscreen"}
+                variants={titleVariants} className="flexCenter hero-right">
                     <div className="image-container">
                         <img src="./r3.png" alt="" />
                     </div>
-                    </div>
+                    </motion.div>
                     </div>
             </SwiperSlide>
 

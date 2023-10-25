@@ -1,18 +1,33 @@
 import React, { useState } from "react";
 import './Header.css'
 import { BiMenuAltRight } from "react-icons/bi";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { getMenuStyles } from "../../utils/common";
 import OutsideClickHandler from "react-outside-click-handler";
+import {motion, useMotionValueEvent, useScroll} from "framer-motion";
+import { Link } from "react-scroll";
+
+
 const Header = () =>{
     const [menuOpened, setMenuOpened] = useState(false);
-    // const headerColor = useHeaderColor();
+    const[navStyle, setNavStyle] = useState("");
+    const {scrollYProgress} = useScroll({
+
+  })
+    useMotionValueEvent(scrollYProgress, "change", (latest) =>{
+      if (latest > 0.2){
+        setNavStyle("sticky");
+      }else{
+        setNavStyle("")
+      }
+    } );
+
     return(
-        <section className="h-wrapper">
+        <section className={`h-wrapper ${navStyle}`}>
             <div className="flexCenter paddings innerWidth h-container">
-                <Link to={"/"}>
+                <NavLink to={"/"}>
                 <img src="./logo.png" alt="logo" width={100} />
-                </Link>
+                </NavLink>
 
                 <OutsideClickHandler  onOutsideClick={() => {
             setMenuOpened(false);
@@ -28,7 +43,10 @@ const Header = () =>{
                     <NavLink to='/about'>About Us</NavLink>
                     
                     <button className="button">
-                    <a href="mailto:customerservice@oakhomeslimited.com">Contact Us</a>
+                      <Link to={"c-wrapper"} spy={true} smooth={true}>
+                      <a href="mailto:customerservice@oakhomeslimited.com">Contact Us</a>
+                      </Link>
+
                     </button>
                     
                 </div>

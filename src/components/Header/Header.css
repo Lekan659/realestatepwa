@@ -4,7 +4,15 @@
     color: white;
     border-bottom: 1px rgba(255,255,255,.4) solid;
     z-index: 1000000000000000;
-    position: fixed;
+    position: absolute;
+}
+
+.sticky{
+  position: fixed;
+  box-shadow: 10px 12px 48px rgba(181, 187, 203, .206);
+  background: white;
+  top: 0;
+  transition: ease-in-out 400ms;
 }
 
 .h-container{
@@ -14,8 +22,13 @@
     color: var(--secondary);
 }
 
+.sticky .h-container .h-menu{
+  color: var(--primary);
+  padding: 1rem;
+}
+
 .h-menu{
-    gap: 2rem;
+    gap: 4.5rem;
 
 }
 

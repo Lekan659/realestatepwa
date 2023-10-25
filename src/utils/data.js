@@ -78,19 +78,19 @@ export const ourDiffFeatures = [
 
 export const hitFeatures = [
   {
-    icon: "./howItWorks/Frame-0.png",
-    title: "Connect",
-    des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.",
+    icon: "./howItWorks/customer.png",
+    title: "Excellence",
+    des: "Striving for the highest standards of quality, craftsmanship, and attention to detail in every aspect of our projects.",
   },
   {
-    icon: "/howItWorks/Frame-1.png",
-    title: "Get Funded",
-    des: "Get a term sheet with upto 3 funding offers. Select option that best suits and complete onboarding to receive funds in days",
+    icon: "/howItWorks/excellence.png",
+    title: "Innovation",
+    des: " Embracing cutting-edge technologies and design trends to create iconic and forward-thinking architectural masterpieces",
   },
   {
-    icon: "/howItWorks/Frame-2.png",
-    title: "Support Growth",
-    des: "Access curated feed of actionable insights and on demand execution expertise. Auto qualify for follow on funding as you grow",
+    icon: "/howItWorks/withhand.png",
+    title: "Legacy",
+    des: "Developing properties that stand the test of time, leaving a lasting impact on the communities we serve",
   },
 ];
 

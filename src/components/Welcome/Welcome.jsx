@@ -68,13 +68,13 @@ export const Welcome = () => {
                                 variants={tagVariants} className="sec-title">
                                 Welcome to Oak Homes
                             </motion.span>
-                            <br />
-                            <motion.span
+                            <hr/>
+                            {/* <motion.span
                                 initial='offscreen'
                                 whileInView={"onscreen"}
                                 variants={titleVariants} className="description">
                                 Luxury Living at its Best Pricing
-                            </motion.span>
+                            </motion.span> */}
                         </div>
                     </div>
                     <motion.div 

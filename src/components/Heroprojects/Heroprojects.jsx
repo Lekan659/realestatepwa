@@ -10,7 +10,7 @@ const Heroprojects = () =>{
                   <div className="hero-titlep">
                     {/* <div className="orange-circlep"/> */}
                     <h1>
-                        Oak Projects  </h1>
+                    Current Properties  </h1>
                         {/* <h2>
                         Your <span className="orangeText">Home</span>  Journey Starts Now <br/>
                         at  Pricing

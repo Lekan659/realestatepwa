@@ -2,7 +2,7 @@
   {
     "id": "0",
     "name": "Oak Villa",
-    "price": "Available",
+    "price": "",
     "detail": "A specially curated ultra-luxury enclave intelligently designed with modern amenities",
     "image": "./r1.png",
     "facilities":{"bedrooms": 4, "parkings": 3, "bathrooms": 4},
@@ -15,7 +15,7 @@
   {
     "id": "1",
     "name": "Oak Place",
-    "price": "Available",
+    "price": "",
     "detail": "An undiluted embodiment of luxury, style and sophistication",
     "image": "./r2.png",
     "facilities":{"bedrooms": 4, "parkings": 3, "bathrooms": 4},
@@ -41,7 +41,7 @@
   {
     "id": "3",
     "name": "Oak Mews",
-    "price": "Available",
+    "price": "",
     "detail": "ikate elegushi lekki, (after 3rd roundabout, behind world oil filling station and blenco supermarket) Lagos",
     "image": "./r9.png",
     "facilities":{"bedrooms": 4, "parkings": 3, "bathrooms": 4},
@@ -54,7 +54,7 @@
   {
     "id": "4",
     "name": "Oak Residence",
-    "price": "Available",
+    "price": "",
     "detail": "A complete work of art. It’s timeless designs draws its inspiration from modern architectural master pieces",
     "image": "./r3.png",
     "facilities":{"bedrooms": 4, "parkings": 3, "bathrooms": 4},

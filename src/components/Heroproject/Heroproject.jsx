@@ -16,7 +16,7 @@ const Heroproject = ({card}) => {
                   <div className="flexColStart secondaryText hero-desp">
                     <span>
                    
- {card.name} by <span className="orangeText newtext"> Oak Homes</span> 
+<span className="orangeText newtext">The {card.name} </span> 
                     </span>
                   </div>
 

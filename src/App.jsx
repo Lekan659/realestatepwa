@@ -8,6 +8,9 @@ import Properties from "./pages/Properties/Properties";
 import Property from "./pages/Property/Porperty";
 import { QueryClient, QueryClientProvider } from "react-query";
 import About from "./pages/About/About";
+// import {ReactWhatsapp} from "react-whatsapp";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import ReactWhatsapp from "react-whatsapp";
 
 function App() {
   const queryclient = new QueryClient
@@ -29,7 +32,13 @@ function App() {
       </Routes>
       </BrowserRouter>
 
+
+
       </QueryClientProvider>
+
+      <ReactWhatsapp element="button" number="1-212-736-5000" message="Hello World!!!" />
+      <FloatingWhatsApp avatar="/logo.png" accountName="Oak Homes" statusMessage="Available" />
+      <float />
     </div>
   );
 }

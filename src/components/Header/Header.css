@@ -23,12 +23,15 @@
 }
 
 .sticky .h-container .h-menu{
-  color: var(--primary);
+  color: #3d3d3d;
   padding: 1rem;
 }
 
 .h-menu{
     gap: 4.5rem;
+    color: azure;
+    font-size: 1.15rem;
+    font-weight: 500;
 
 }
 

@@ -10,6 +10,7 @@ import Residencies from "../components/Residencies/Residencies";
 import Value from "../components/Value/Value";
 import { Welcome } from "../components/Welcome/Welcome";
 import Ourcontact from "../components/Ourcontact/Ourcontact";
+import Footie from "../components/Footie/Footie";
 
 motion
 
@@ -25,7 +26,8 @@ function Home() {
       <motion.div
         onViewportEnter = {() =>
         controls.start({
-          backgroundColor: "var(--frie)",
+          // backgroundColor: "var(--secondary)",
+          backgroundColor: "#f6f7fb"
         })
         }
         onViewportLeave={() =>
@@ -44,7 +46,7 @@ function Home() {
       <motion.div
         onViewportEnter = {() =>
         controls.start({
-          backgroundColor: "var(--lightBlue)",
+          backgroundColor: "white",
         })
         }
         onViewportLeave={() =>
@@ -58,6 +60,7 @@ function Home() {
       </motion.div>
         {/* <Ourcontact/> */}
       <Getstarted/>
+      {/* <Footie/> */}
       {/* <Footer/> */}
     </motion.div>
   );

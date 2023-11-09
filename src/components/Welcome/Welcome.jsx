@@ -65,8 +65,8 @@ export const Welcome = () => {
                             <motion.span
                                 initial='offscreen'
                                 whileInView={"onscreen"}
-                                variants={tagVariants} className="sec-title">
-                                Welcome to Oak Homes
+                                variants={tagVariants} className="primaryText">
+                                Elegance in Every Detail
                             </motion.span>
                             <hr/>
                             {/* <motion.span
@@ -84,10 +84,18 @@ export const Welcome = () => {
 
 
                         <div>
-                            <span className="text">
-                                Step into a world where luxury meets reality. Welcome to Oak Homes, where we redefine opulent living
+                            <span style={{
+            fontSize: "16px",
+            fontWeight: "500",
+            lineHeight: "2rem"
+          }}  className="secondaryText">
+                                Step into a world where luxury meets reality. Welcome to Oak Homes, where we redefine living
                             </span>
-                            <span className="text">
+                            <span style={{
+            fontSize: "16px",
+            fontWeight: "500",
+            lineHeight: "2rem"
+          }}  className="secondaryText">
                                 Our collection of prestigious residences offers the epitome of elegance, each a masterpiece waiting to be yours. From sun-kissed estates with sweeping views to urban sanctuaries in the heart of the city, Oak Homes delivers unparalleled craftsmanship and design. Explore our curated selection of exquisite properties, where comfort and sophistication blend seamlessly. Your dream home, just a click away. Welcome to Oak Homes, where extravagance meets the everyday
                             </span>
                         </div>

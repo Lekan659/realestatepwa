@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Outlet } from 'react-router-dom'
+import Footie from '../Footie/Footie'
 
 const Layout = () => {
   return (
@@ -10,7 +11,7 @@ const Layout = () => {
         <Header/>
         <Outlet/>
     </div>
-    <Footer/>
+    <Footie/>
     </>
   )
 }

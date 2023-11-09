@@ -63,7 +63,7 @@ const Ourvalue = () => {
                                         <span className="des">
                                             0{i + 1}
                                         </span>
-                                        <span className="sec-title">
+                                        <span className="primaryText">
                                             {feature.title}
                                         </span>
                                         <span className="text">

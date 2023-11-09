@@ -2,6 +2,7 @@
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
   --black: #131110;
+  --green: #5dd693;
   --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
   --orange-gradient: linear-gradient(270deg, #ffb97836 0%, #e0cc6b69 100%);
   --blue: #4066ff;
@@ -17,6 +18,7 @@
 * {
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Open Sans', sans-serif;
@@ -79,7 +81,7 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: #3d3d3d;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -90,7 +92,7 @@ a {
 }
 
 .orangeText {
-  color: orange;
+  color: #719150;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -99,7 +101,9 @@ a {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   color: white;
-  background: var(--blue-gradient);
+  /* background: var(--blue-gradient); */
+  background-color: #378b29;
+  background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
   border: none;
   border-radius: 4px;
   transition: all 300ms ease-in;
@@ -109,6 +113,7 @@ a {
 .App {
   position: relative;
   transition: all 300ms ease-out;
+  overflow: hidden;
 }
 
 .button:hover {
@@ -132,8 +137,8 @@ a {
 }
 
 .sec-title {
-  font-size: 2rem;
-  color: #221577;
+  font-size: 2.6rem;
+  color: #3d3d3d;
   font-weight: 600;
   text-align: center;
   line-height: 3rem;
@@ -147,8 +152,15 @@ a {
 }
 
 .text {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(140, 139, 139);
+  line-height: 2rem
+}
+
+.text2 {
   font-size: 1.1rem;
-  color: #867eb5;
+  color: #655e8a;
   line-height: 2rem;
 }
 

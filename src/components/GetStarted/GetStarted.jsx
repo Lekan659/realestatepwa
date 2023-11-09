@@ -5,14 +5,14 @@ const Getstarted = () => {
     <section className="g-wrapper">
         <div className="paddings innerWidth g-container">
             <div className="flexColCenter inner-container">
-            <span className='primaryText'>Get Started with Oak Homes</span>
+            <span className='primaryText'>Subscribe to our news letter</span>
             <span className='secondaryText'>
-              Luxury Living at Its Best Pricing <br/>
+            Get the latest updates about the latest developments and exciting news on how we are shaping the future! <br/>
               Click Below to get Started
               </span>
               <button className="button">
                 <a href='/projects'>
-                  Get Started
+                  Subscribe Now
                 </a>
               </button>
             </div>

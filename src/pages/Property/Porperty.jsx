@@ -2,13 +2,24 @@ import React from 'react'
 import { useQuery } from 'react-query'
 import { useLocation } from 'react-router-dom'
 import "./Property.css"
+import data2 from "../../utils/slider.json"
 import data from "../../utils/sliderproducts.json"
 // import { MdMeetingRoom } from 'react-icons/md'
 import { FaShower } from "react-icons/fa";
 import { AiTwotoneCar } from "react-icons/ai";
 import { MdLocationPin, MdMeetingRoom, MdOutlinePool, MdSecurity, MdSmartDisplay, MdSportsGymnastics } from "react-icons/md";
 import Heroproject from '../../components/Heroproject/Heroproject'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { motion } from "framer-motion";
+import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper';
+
+// import './hswiper.css';
 import Map from '../../components/Map/Map'
+import { desVariantsres } from '../../utils/animations'
 const Porperty = () => {
   const {pathname} = useLocation()
   const id = pathname.split("/").slice(-1)[0]
@@ -19,7 +30,43 @@ const Porperty = () => {
       <Heroproject card = {data[id]} />
        <div className="flexColStart paddings innerWidth property-container">
 
-        <img src={data[id]?.image} alt="Home Image" />
+       <Swiper
+        spaceBetween={30}
+        loop={true}
+        speed = {2200}
+        effect={'fade'}
+        navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        autoplay={{
+          delay: 11500,
+          disableOnInteraction: false,
+        }}
+        modules={[EffectFade, Navigation, Pagination, Autoplay]}
+        className="mySwiper"
+      >
+
+<motion.div>
+                        {
+                            data[id]?.image.map((image, i) =>(
+                                <SwiperSlide>
+                                    <motion.div
+                                    >
+                                              <img src={image} alt="Home Image" />
+                                    </motion.div>
+                                    </SwiperSlide>
+
+                            ))
+
+                        }
+                        </motion.div>
+
+          {/* <img src={data[id]?.image} alt="Home Image" /> */}
+
+        </Swiper>
+
+       
 
         <div className="flexCenter property-details">
           <div className="flexColStart left">
@@ -59,25 +106,25 @@ const Porperty = () => {
               {/* Amenities */}
               <div className="flexColStart amenities">
               <div className="flexStart amenity">
-                <MdSportsGymnastics size={20} color="#ffa500" />
+                <MdSportsGymnastics size={20} color="#719150" />
                 {/* <MdSportsGymnastics */}
                 <span> Gym</span>
               </div>
 
               {/* parkings */}
               <div className="flexStart amenity">
-                <MdOutlinePool size={20} color="#ffa500" />
+                <MdOutlinePool size={20} color="#719150" />
                 <span>Pool</span>
               </div>
 
               {/* rooms */}
               <div className="flexStart amenity">
-                <MdSecurity size={20} color="#ffa500" />
+                <MdSecurity size={20} color="#719150" />
                 <span> 24/7 Security</span>
               </div>
 
               <div className="flexStart amenity">
-                <MdSmartDisplay size={20} color="#ffa500" />
+                <MdSmartDisplay size={20} color="#719150" />
                 <span> Smart Home</span>
               </div>
               </div>

@@ -28,7 +28,11 @@ const Homevid = () => {
                 <motion.span initial='offscreen'
                     whileInView={"onscreen"}
                     variants={titleVariants}
-                    className="text infom">
+                    className="secondaryText infom" style={{
+                        fontSize: "16px",
+                        fontWeight: "500",
+                        lineHeight: "2rem"
+                      }} >
                     Step inside our world of opulent living and discover the essence of elegance. Get captivated by the grandeur of our luxury homes
 
 
@@ -46,11 +50,12 @@ const Homevid = () => {
                     autoPlay
                     muted
                     controls
-                    style={{
-                        scale: scrollYProgress,
-                        opacity: scrollYProgress
-                    }} >
-                    <source src="/oakvids.mp4" type='video/mp4' />
+                    // style={{
+                    //     scale: scrollYProgress,
+                    //     opacity: scrollYProgress
+                    // }}
+                     >
+                    <source src="/oakkvids.mp4" type='video/mp4' />
                 </motion.video>
             </div>
         </div>

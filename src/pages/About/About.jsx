@@ -32,9 +32,11 @@ const About = () => {
 
         <div className="flexColStart v-right">
           <span className='orangeText'>Home ~ About Us</span>
-          <span className='primaryText'>About Us at Oak Homes</span>
+          <span className='primaryText'>Oak Homes</span>
           <span style={{
-            fontSize: "1.3rem"
+            fontSize: "16px",
+            fontWeight: "500",
+            lineHeight: "2rem"
           }} className='secondaryText'>Oak Homes is a leading Real Estate Development company in Nigeria. We pride ourselves in being a young, innovative and creative team, yet with combined experience spanning over two (2) decades.
           <br/>  <br/>
 

@@ -9,7 +9,7 @@ import { desVariants, tagVariants, titleVariants } from '../../utils/animations'
 export const Welcome = () => {
     return (
         <div className="innerWidth wel-wrapper">
-            <div className="container">
+            <div className="">
                 <div className="wel-container">
                     {/* <div className="wel-head">
                         <motion.span
@@ -89,7 +89,7 @@ export const Welcome = () => {
             fontWeight: "500",
             lineHeight: "2rem"
           }}  className="secondaryText">
-                                Step into a world where luxury meets reality. Welcome to Oak Homes, where we redefine living
+                                Step into a world where luxury meets reality.  Introducing Oak Homes, an enclave where the very essence of living is redefined and elevated to new, unparalleled heights.
                             </span>
                             <span style={{
             fontSize: "16px",

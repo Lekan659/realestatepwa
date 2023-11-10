@@ -11,7 +11,11 @@ body{
 	max-width: 1170px;
 	margin:auto;
 }
-.row{
+
+.small{
+	display: none;
+}
+.rowf{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -20,6 +24,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
+	margin-top: 30px;
     padding: 70px 0;
 }
 .footer-col{
@@ -95,6 +100,18 @@ ul{
 }
 @media(max-width: 574px){
   .footer-col{
-    width: 100%;
+    /* width: 100%; */
+}
+
+.rowf{
+	margin: 5%;
+}
+
+.f-left{
+	display: none;
+}
+
+.small{
+	display: block;
 }
 }

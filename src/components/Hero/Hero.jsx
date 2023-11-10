@@ -26,7 +26,7 @@ const Hero = () =>{
         spaceBetween={30}
         loop={true}
         speed = {2200}
-        // grabCursor={true}
+        grabCursor={true}
         effect={'creative'}
         creativeEffect={{
           prev: {
@@ -38,12 +38,12 @@ const Hero = () =>{
           },
         }}
         // modules={[EffectCreative]}
-        // navigation={true}
+        navigation={true}
         // pagination={{
         //   clickable: true,
         // }}
         autoplay={{
-          delay: 2500,
+          delay: 2222500,
           disableOnInteraction: false,
         }}
         modules={[EffectFade, Navigation, Pagination, Autoplay, EffectCreative]}
@@ -156,14 +156,8 @@ const Hero = () =>{
                     </div>
             </SwiperSlide>
 
-          
-<SwiperSlide className="hero-wrapper">
-
-
-            <div
-           
-             className="paddings innerWidth flexCenter hero-container" >
-                          <div className="container">
+            <SwiperSlide className="hero-wrapper">
+            <div className="container">
                 <motion.video
                     className='bg-video'
                     loop
@@ -173,6 +167,10 @@ const Hero = () =>{
                     <source src="/oakvilla.mp4" type='video/mp4' />
                 </motion.video>
             </div>
+
+            <div
+           
+             className="paddings innerWidth flexCenter hero-container" >
                 <motion.div
                  initial={{ opacity: 0, x: -100 }}
                  whileInView={{
@@ -257,11 +255,12 @@ const Hero = () =>{
                 whileInView={"onscreen"}
                 variants={titleVariants} className="flexCenter hero-right">
                     <div className="image-container">
-                        <img src="./r77.png" alt="" />
+                        <img src="./r2.png" alt="" />
                     </div>
                     </motion.div>
                     </div>
             </SwiperSlide>
+
 
               
 

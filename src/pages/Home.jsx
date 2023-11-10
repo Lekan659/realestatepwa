@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <motion.div className="App" animate = {controls}>
-      {/* <Header/> */}
+      <Header/>
       <Hero/>
       <Welcome/>
       <Residencies/>
@@ -59,7 +59,7 @@ function Home() {
                 <Contacts/>
       </motion.div>
         {/* <Ourcontact/> */}
-      <Getstarted/>
+      {/* <Getstarted/> */}
       {/* <Footie/> */}
       {/* <Footer/> */}
     </motion.div>

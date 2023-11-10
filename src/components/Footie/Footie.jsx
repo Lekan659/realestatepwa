@@ -6,7 +6,18 @@ const Footie = () => {
     <div className=''>
     <footer class="footer">
   	 <div class="container">
-  	 	<div class="innerWidth row">
+		<div className="footer-col flexColStart small">
+                <img src="./logo.png" alt="" width={120}/>
+
+                <span style={{
+                    color : 'lavender'
+                }} className="secondaryText">
+                    {/* Our Vision is to make all people<br />
+                    the best place to live for them. */}
+
+                </span>
+            </div>
+  	 	<div class="innerWidth rowf">
 		   <div className="footer-col flexColStart f-left">
                 <img src="./logo.png" alt="" width={120}/>
 
@@ -55,12 +66,14 @@ const Footie = () => {
   	 				<a href="#"><i class="fab fa-linkedin-in"><FaLinkedinIn/></i></a>
   	 			</div>
   	 		</div>
+			   <div class="bottm_footer">
+            <span style={{color: "#e0e0e0"}}>©2023 Oak Homes. All Rights Reserved</span>
+        </div>
   	 	</div>
+
   	 </div>
 
-	   <div class="bottm_footer">
-            <span style="color: #e0e0e0;">©2023 Sujimoto Group. All Rights Reserved</span>
-        </div>
+
   </footer>
     </div>
   )

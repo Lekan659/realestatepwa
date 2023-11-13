@@ -37,10 +37,14 @@ const Header = () =>{
 
     return(
         <section className={`h-wrapper ${navStyle}`}>
+          
           <Dialog
+
+
             // fullScreen 
-            open={open} onClose={closepopup} fullWidth maxWidth="sm">
-                <DialogTitle>User Registeration  <IconButton onClick={closepopup} style={{float:'right'}}><CloseIcon color="primary"></CloseIcon></IconButton>  </DialogTitle>
+            open={open} onClose={closepopup} maxWidth="sm">
+              
+                <DialogTitle> Schedule an Appointment with us  <IconButton onClick={closepopup} style={{float:'right'}}><CloseIcon color="primary"></CloseIcon></IconButton>  </DialogTitle>
                 <DialogContent>
                     {/* <DialogContentText>Do you want remove this user?</DialogContentText> */}
                     {/* <Stack spacing={2} margin={2}>
@@ -95,7 +99,10 @@ const Header = () =>{
                 {/* <Button color="success" variant="contained">Yes</Button>
                     <Button onClick={closepopup} color="error" variant="contained">Close</Button> */}
                 </DialogActions>
+
+                
             </Dialog>
+
             <div className="flexCenter paddings innerWidth h-container">
                 <NavLink to={"/"}>
                 <img src="./logo.png" alt="logo" width={100} />
@@ -109,20 +116,21 @@ const Header = () =>{
                 
                 <div style={getMenuStyles(menuOpened)} className="flexCenter h-menu">
                 <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/projects'>Properties</NavLink>
+                    {/* <NavLink to='/projects'>Properties</NavLink> */}
                     <div className="dropdown">
-      <a className="dropbtn">Dropdown</a>
+      <a className="dropbtn">Properties</a>
       <div className="dropdown-content">
-      <NavLink to='/projects'>Past Projects</NavLink>
-      <NavLink to='/currentprojects'>Current Projects</NavLink>
+      <NavLink to='/projects'>Current Projects</NavLink>
+      <NavLink to='/oldprojects'>Past Projects</NavLink>
+
       </div>
     </div>
                     {/* <a href="">Our Services</a> */}
                     {/* <a href="">About Us</a> */}
                     <NavLink to='/about'>About Us</NavLink>
                     
-                    <button className="button">
-                      <Link onClick={functionopenpopup} to={"c-wrapper"} spy={true} smooth={true}>
+                    <button onClick={functionopenpopup} className="button">
+                      <Link  to={"c-wrapper"} spy={true} smooth={true}>
                       <a  >Contact Us</a>
                       {/* href="mailto:customerservice@oakhomeslimited.com" */}
                       </Link>

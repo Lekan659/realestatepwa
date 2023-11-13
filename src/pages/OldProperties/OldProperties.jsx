@@ -3,11 +3,11 @@ import SearchBar from '../../components/SearchBar/SearchBar'
 import "./OldProperties.css"
 // import useProperties from '../../hooks/useProperties'
 import PropertyCard from '../../components/PropertyCard/PropertyCard'
-import data from "../../utils/slider.json"
+import data from "../../utils/oldslider.json"
 import Heroprojects from '../../components/Heroprojects/Heroprojects'
 import Herooldprojects from '../../components/Herooldprojects/Herooldprojects'
 
-const Properties = () => {
+const Oldproperties = () => {
     // const {data, isError, isLoading} = useProperties()
     const [filter, setFilter] = useState("");
   return (
@@ -39,4 +39,4 @@ const Properties = () => {
   )
 }
 
-export default Properties
+export default Oldproperties

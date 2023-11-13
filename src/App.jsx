@@ -11,6 +11,7 @@ import About from "./pages/About/About";
 // import {ReactWhatsapp} from "react-whatsapp";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import ReactWhatsapp from "react-whatsapp";
+import Oldproperties from "./pages/OldProperties/OldProperties";
 
 function App() {
   const queryclient = new QueryClient
@@ -26,6 +27,12 @@ function App() {
         <Route index element={<Properties/>}/>
         <Route path=":projectId" element={<Property/>}/>
         </Route>
+
+        <Route path="/oldprojects">
+        <Route index element={<Oldproperties/>}/>
+        <Route path=":projectId" element={<Property/>}/>
+        </Route>
+        
         <Route path="/about" element={<About/>}/>
        
         </Route>
@@ -36,8 +43,8 @@ function App() {
 
       </QueryClientProvider>
 
-      <ReactWhatsapp element="button" number="1-212-736-5000" message="Hello World!!!" />
-      <FloatingWhatsApp avatar="/logo.png" accountName="Oak Homes" statusMessage="Available" />
+      <ReactWhatsapp element="button" number="2348111120003" message="Hello World!!!" />
+      <FloatingWhatsApp phoneNumber="2348111120003" avatar="/logo.png" accountName="Oak Homes" statusMessage="Available" />
       <float />
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import './Heroprojects.css'
+import './Herooldprojects.css'
 import CountUp from "react-countup";
 const Herooldprojects = () =>{
     return(  
